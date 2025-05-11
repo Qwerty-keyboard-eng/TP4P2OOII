@@ -15,6 +15,22 @@ public class Empleado {
         this.email = email;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public LocalDate getFechaNacimiento() {
+        return fechaNacimiento;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
